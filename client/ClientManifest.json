@@ -1,6 +1,6 @@
 [
   {
-    "name": "Live",
+    "name": "Normal",
     "main": "net.runelite.client.RuneLite",
     "bootstrap": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/master/client/live/bootstrap.json",
     "bootstrapsig": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/master/client/live/bootstrap.json.sha256",
