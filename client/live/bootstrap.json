@@ -2,7 +2,7 @@
   "launcherArguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
     "-Xincgc",
@@ -12,7 +12,7 @@
   "launcherJvm11Arguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
@@ -20,7 +20,7 @@
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
     "-Drunelite.launcher.blacklistedDlls\u003dRTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,NahimicMSIOSD.dll,Nahimic2OSD.dll,Nahimic2DevProps.dll,k_fps32.dll,k_fps64.dll,SS2DevProps.dll,SS2OSD.dll,GTIII-OSD64-GL.dll,GTIII-OSD64-VK.dll,GTIII-OSD64.dll",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
@@ -29,27 +29,30 @@
     "-Drunelite.launcher.nojvm\u003dtrue",
     "-Xmx512m",
     "-Xss2m",
-    "-XX:CompileThreshold\u003d1500"
+    "-XX:CompileThreshold\u003d1500",
+    "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED"
   ],
   "launcherJvm17MacArguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
   ],
   "launcherJvm17WindowsArguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.nojvm\u003dtrue",
     "-Drunelite.launcher.blacklistedDlls\u003dRTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,NahimicMSIOSD.dll,Nahimic2OSD.dll,Nahimic2DevProps.dll,k_fps32.dll,k_fps64.dll,SS2DevProps.dll,SS2OSD.dll,GTIII-OSD64-GL.dll,GTIII-OSD64-VK.dll,GTIII-OSD64.dll",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
-    "-XX:CompileThreshold\u003d1500"
+    "-XX:CompileThreshold\u003d1500",
+    "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED"
   ],
   "clientJvmArguments": [
     "-XX:+DisableAttachMechanism",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
     "-Xincgc",
@@ -59,26 +62,29 @@
   "clientJvm9Arguments": [
     "-XX:+DisableAttachMechanism",
     "-Drunelite.launcher.blacklistedDlls\u003dRTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,NahimicMSIOSD.dll,Nahimic2OSD.dll,Nahimic2DevProps.dll,k_fps32.dll,k_fps64.dll,SS2DevProps.dll,SS2OSD.dll,GTIII-OSD64-GL.dll,GTIII-OSD64-VK.dll,GTIII-OSD64.dll",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500"
   ],
   "clientJvm17MacArguments": [
     "-XX:+DisableAttachMechanism",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
-    "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
+    "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED",
+    "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED",
+    "--add-opens java.desktop/java.awt\u003dALL-UNNAMED"
   ],
   "clientJvm17Arguments": [
     "-XX:+DisableAttachMechanism",
-    "-Xmx812m",
+    "-Xmx1g",
     "-Xss2m",
-    "-XX:CompileThreshold\u003d1500"
+    "-XX:CompileThreshold\u003d1500",
+    "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED"
   ],
   "artifacts": [
     {
-      "hash": "a98c944dbb1d92879484ab83e54cb360118d1493c9691da9cabce4f92c30b137",
+      "hash": "0aff2285ea74651a0053c55b75098085dd5bd04c36b0cda0ec02f9a2f350797c",
       "name": "game.jar",
       "path": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/master/client/live/repo/game.jar",
       "size": 57647512
@@ -362,7 +368,7 @@
   ],
   "updates": [],
   "dependencyHashes": {
-    "game.jar": "a98c944dbb1d92879484ab83e54cb360118d1493c9691da9cabce4f92c30b137",
+    "game.jar": "0aff2285ea74651a0053c55b75098085dd5bd04c36b0cda0ec02f9a2f350797c",
     "javafx-web-11.0.2-win.jar": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
     "javafx-media-11.0.2-win.jar": "894ed28a5e741c0b452f5994cada93ebead2dc0a66102d02216dc8f7674df211",
     "javafx-media-11.0.2.jar": "6ee2e8b3c931dbb98d98bb95aa82033fdb6f43cdfd569e60613db5834629d025",
