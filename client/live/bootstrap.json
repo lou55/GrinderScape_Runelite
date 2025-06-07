@@ -84,10 +84,10 @@
   ],
   "artifacts": [
     {
-      "hash": "3da0574de4c2d8aff650a66c6e59186a7fa38eaa704666adb7f36ef1ca4faf11",
+      "hash": "9d082d6fe4c1af940767ecf6290132015adfac8c3f498596c91c2bb2b3bdebbd",
       "name": "game.jar",
       "path": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/master/client/live/repo/game.jar",
-      "size": 65918441
+      "size": 65917580
     },
     {
       "hash": "f46dffcf9ffc477a98cb64954fd906852df2faf3d3b428c06d1396d5c8949707",
@@ -598,7 +598,7 @@
   ],
   "updates": [],
   "dependencyHashes": {
-    "game.jar": "3da0574de4c2d8aff650a66c6e59186a7fa38eaa704666adb7f36ef1ca4faf11",
+    "game.jar": "9d082d6fe4c1af940767ecf6290132015adfac8c3f498596c91c2bb2b3bdebbd",
     "javafx-fxml-11.0.2-win.jar": "f46dffcf9ffc477a98cb64954fd906852df2faf3d3b428c06d1396d5c8949707",
     "javafx-swing-11.0.2-win.jar": "b2896377370132993cbc61d18fc65c4634ca771f3d1dd2c69db8bf81ce798770",
     "javafx-web-11.0.2-win.jar": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
