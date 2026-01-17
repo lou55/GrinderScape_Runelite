@@ -98,10 +98,16 @@
   ],
   "artifacts": [
     {
-      "hash": "df639c9ec7dfb874c355738d9bb0ff737ae322290cf571446794458c9e12a97b",
+      "hash": "349e56167ebadfa28248a4d08a684dec3ea3006c6ea39cae040d257ca39459a5",
       "name": "game.jar",
       "path": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/master/client/live/repo/game.jar",
-      "size": 68164872
+      "size": 68527393
+    },
+    {
+      "hash": "f46dffcf9ffc477a98cb64954fd906852df2faf3d3b428c06d1396d5c8949707",
+      "name": "javafx-fxml-11.0.2-win.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-win.jar",
+      "size": 127395
     },
     {
       "hash": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
@@ -110,10 +116,16 @@
       "size": 25451932
     },
     {
-      "hash": "f46dffcf9ffc477a98cb64954fd906852df2faf3d3b428c06d1396d5c8949707",
-      "name": "javafx-fxml-11.0.2-win.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-win.jar",
-      "size": 127395
+      "hash": "2abbc62d9b2830d46997531ec404bb2fae1176604ff2b19eb716a3b33eadc527",
+      "name": "javafx-controls-11.0.2-win.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-win.jar",
+      "size": 2511137
+    },
+    {
+      "hash": "60106c2cf52a7f31eca1b8d08a952cf4b93b5b1d85492a755e97a0808a69ff9a",
+      "name": "javafx-controls-11.0.2.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar",
+      "size": 306
     },
     {
       "hash": "894ed28a5e741c0b452f5994cada93ebead2dc0a66102d02216dc8f7674df211",
@@ -132,18 +144,6 @@
       "name": "javafx-swing-11.0.2-win.jar",
       "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-swing/11.0.2/javafx-swing-11.0.2-win.jar",
       "size": 119848
-    },
-    {
-      "hash": "2abbc62d9b2830d46997531ec404bb2fae1176604ff2b19eb716a3b33eadc527",
-      "name": "javafx-controls-11.0.2-win.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-win.jar",
-      "size": 2511137
-    },
-    {
-      "hash": "60106c2cf52a7f31eca1b8d08a952cf4b93b5b1d85492a755e97a0808a69ff9a",
-      "name": "javafx-controls-11.0.2.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar",
-      "size": 306
     },
     {
       "hash": "853109f747709bc31e9298baf531c84dbda1764fe24533390635aa4049cfb29b",
@@ -460,82 +460,82 @@
       "size": 161458
     },
     {
-      "hash": "e436d2144f3a36fff772fd64233316809b795f390defd4d55660fc686e7c2834",
-      "name": "lwjgl-opengl-3.3.1.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar",
-      "size": 921563
+      "hash": "5062da750e5f7ec89e27e8b67b7d40fa8c4b16890159e35f828116ce6c8eca1e",
+      "name": "lwjgl-opengl-3.3.3.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3.jar",
+      "size": 929192
     },
     {
-      "hash": "bcfcd9f8dfd229488ad9ec353d48c7b02de5ca21badd4092f1902239a1ed0690",
-      "name": "lwjgl-opengl-3.3.1-natives-linux.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-linux.jar",
-      "size": 79125
+      "hash": "d823a92c6a2810b5112da304dcc6abcd4cb102706f74f7e934a223cea2051250",
+      "name": "lwjgl-opengl-3.3.3-natives-linux.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-linux.jar",
+      "size": 80463
     },
     {
-      "hash": "683d8ad3d0d0977a6ea18b88a4cbe7e8fd4f06c1ab21babedab88309740bcc60",
-      "name": "lwjgl-opengl-3.3.1-natives-windows-x86.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows-x86.jar",
-      "size": 87463
+      "hash": "9d99d203de4e31286cae753a1dfb981367c93734f1944644ba71be521b3af2cc",
+      "name": "lwjgl-opengl-3.3.3-natives-windows-x86.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows-x86.jar",
+      "size": 88612
     },
     {
-      "hash": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
-      "name": "lwjgl-opengl-3.3.1-natives-windows.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-windows.jar",
-      "size": 100205
+      "hash": "f45e5f60596b03b2e3d8b98a123c855ebd0b5154c8155dc2a56b890ccc907477",
+      "name": "lwjgl-opengl-3.3.3-natives-windows.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-windows.jar",
+      "size": 101535
     },
     {
-      "hash": "711f29972888509262a957f1b3138bfa9b505519d11df6e5763d1c9a3f8b3c5d",
-      "name": "lwjgl-opengl-3.3.1-natives-macos.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos.jar",
-      "size": 40709
+      "hash": "4c1073d0e5ae99966d0ef1d6a7795758476d247d930fdc5ec1865e38cb847cce",
+      "name": "lwjgl-opengl-3.3.3-natives-macos.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-macos.jar",
+      "size": 41484
     },
     {
-      "hash": "dbd110044eae8adbca8e3c7a730529a351559e74cea887bb3cd6ef0dc016f295",
-      "name": "lwjgl-opengl-3.3.1-natives-macos-arm64.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1-natives-macos-arm64.jar",
-      "size": 41665
+      "hash": "f1b3f1de83f973abae3a4bc32db5b229ae5d55cc80dbbc5f7c841812fe20b5fe",
+      "name": "lwjgl-opengl-3.3.3-natives-macos-arm64.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opengl/3.3.3/lwjgl-opengl-3.3.3-natives-macos-arm64.jar",
+      "size": 42487
     },
     {
-      "hash": "55166a32b42d1d2a96d2878db86db4480b45aba3bcf0506318f6beeb1fe02d00",
-      "name": "lwjgl-opencl-3.3.1.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opencl/3.3.1/lwjgl-opencl-3.3.1.jar",
-      "size": 238275
+      "hash": "10ea1ac52e0cae7a7571e7bed81f57909f5ac50b449aa0f2494c49562e187c5e",
+      "name": "lwjgl-opencl-3.3.3.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl-opencl/3.3.3/lwjgl-opencl-3.3.3.jar",
+      "size": 242112
     },
     {
-      "hash": "cf83f90e32fb973ff5edfca4ef35f55ca51bb70a579b6a1f290744f552e8e484",
-      "name": "lwjgl-3.3.1.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar",
-      "size": 724243
+      "hash": "dc9c7b2d48e8396d68895f8902ffa01e46253de44dfe927533ff09457ebfeec4",
+      "name": "lwjgl-3.3.3.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar",
+      "size": 785029
     },
     {
-      "hash": "22ef2afa31a1740a337ec9c6806c6b8d97e931a63e2c43270cbaf14fb3f6fc4e",
-      "name": "lwjgl-3.3.1-natives-linux.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-linux.jar",
-      "size": 110704
+      "hash": "e663738c519a06f6d659882fa8e4e09af7f10e921929ee5cc54a7587f62ed4c9",
+      "name": "lwjgl-3.3.3-natives-linux.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-linux.jar",
+      "size": 114627
     },
     {
-      "hash": "e90c1f9cf5701aeef2982ebf0905a2b991f4622b8a7f8250eaf0873b5a0a0223",
-      "name": "lwjgl-3.3.1-natives-windows-x86.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows-x86.jar",
-      "size": 134695
+      "hash": "22a22338262554eb5e133c8441deeedac84da082eb3bac84d032da4faf369749",
+      "name": "lwjgl-3.3.3-natives-windows-x86.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows-x86.jar",
+      "size": 139653
     },
     {
-      "hash": "093d13d62a6434bc656bf10a3b37e2530fd9af3b0bc20f8e9545be58659d1443",
-      "name": "lwjgl-3.3.1-natives-windows.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-windows.jar",
-      "size": 159361
+      "hash": "5ee63a19187efe5bb8747fd24f7b13257db348df5ad641113a3695e43f213959",
+      "name": "lwjgl-3.3.3-natives-windows.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-windows.jar",
+      "size": 165442
     },
     {
-      "hash": "f48e610a981dca515b9bbe7345cc76e3450c13404b052d8ac357ef0af8e90abf",
-      "name": "lwjgl-3.3.1-natives-macos.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos.jar",
-      "size": 55706
+      "hash": "0294ee4e2dd7ef6befaffafc0bb99a2a89b76070b5cd8302f3d75624b6786d03",
+      "name": "lwjgl-3.3.3-natives-macos.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-macos.jar",
+      "size": 60543
     },
     {
-      "hash": "7197e89ab80a2a2183b4ee925ccb44e572f0cb757a92776adf8265269200a36a",
-      "name": "lwjgl-3.3.1-natives-macos-arm64.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1-natives-macos-arm64.jar",
-      "size": 42693
+      "hash": "50ac9ca09e59f051dcacf4dc0b2145e9e916e6ab14633b75694231bfe59314a8",
+      "name": "lwjgl-3.3.3-natives-macos-arm64.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3-natives-macos-arm64.jar",
+      "size": 48620
     },
     {
       "hash": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
@@ -624,14 +624,14 @@
   ],
   "updates": [],
   "dependencyHashes": {
-    "game.jar": "df639c9ec7dfb874c355738d9bb0ff737ae322290cf571446794458c9e12a97b",
-    "javafx-web-11.0.2-win.jar": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
+    "game.jar": "349e56167ebadfa28248a4d08a684dec3ea3006c6ea39cae040d257ca39459a5",
     "javafx-fxml-11.0.2-win.jar": "f46dffcf9ffc477a98cb64954fd906852df2faf3d3b428c06d1396d5c8949707",
+    "javafx-web-11.0.2-win.jar": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
+    "javafx-controls-11.0.2-win.jar": "2abbc62d9b2830d46997531ec404bb2fae1176604ff2b19eb716a3b33eadc527",
+    "javafx-controls-11.0.2.jar": "60106c2cf52a7f31eca1b8d08a952cf4b93b5b1d85492a755e97a0808a69ff9a",
     "javafx-media-11.0.2-win.jar": "894ed28a5e741c0b452f5994cada93ebead2dc0a66102d02216dc8f7674df211",
     "javafx-media-11.0.2.jar": "6ee2e8b3c931dbb98d98bb95aa82033fdb6f43cdfd569e60613db5834629d025",
     "javafx-swing-11.0.2-win.jar": "b2896377370132993cbc61d18fc65c4634ca771f3d1dd2c69db8bf81ce798770",
-    "javafx-controls-11.0.2-win.jar": "2abbc62d9b2830d46997531ec404bb2fae1176604ff2b19eb716a3b33eadc527",
-    "javafx-controls-11.0.2.jar": "60106c2cf52a7f31eca1b8d08a952cf4b93b5b1d85492a755e97a0808a69ff9a",
     "javafx-graphics-11.0.2-win.jar": "853109f747709bc31e9298baf531c84dbda1764fe24533390635aa4049cfb29b",
     "javafx-graphics-11.0.2.jar": "dee900a186a70bae8266845c56b03ad9a24e697cb52ba3da421c6049089b3638",
     "javafx-base-11.0.2-win.jar": "612f5f2e4a683848654f39ab90664770a8d49b3d3ab9c231d47bbcab6a2cce63",
@@ -675,19 +675,19 @@
     "jocl-1.0-macos-x64.jar": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
     "jocl-1.0-macos-arm64.jar": "4fb96241f95970bd329ef03af1e9c94a9114e91a571523bcaf2af66bee2f2bfa",
     "rlawt-1.3.jar": "3c3c608f97ce74bdfaa3af30fd026d5d8956280607e11dd1a0996fdb16eef6ef",
-    "lwjgl-opengl-3.3.1.jar": "e436d2144f3a36fff772fd64233316809b795f390defd4d55660fc686e7c2834",
-    "lwjgl-opengl-3.3.1-natives-linux.jar": "bcfcd9f8dfd229488ad9ec353d48c7b02de5ca21badd4092f1902239a1ed0690",
-    "lwjgl-opengl-3.3.1-natives-windows-x86.jar": "683d8ad3d0d0977a6ea18b88a4cbe7e8fd4f06c1ab21babedab88309740bcc60",
-    "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
-    "lwjgl-opengl-3.3.1-natives-macos.jar": "711f29972888509262a957f1b3138bfa9b505519d11df6e5763d1c9a3f8b3c5d",
-    "lwjgl-opengl-3.3.1-natives-macos-arm64.jar": "dbd110044eae8adbca8e3c7a730529a351559e74cea887bb3cd6ef0dc016f295",
-    "lwjgl-opencl-3.3.1.jar": "55166a32b42d1d2a96d2878db86db4480b45aba3bcf0506318f6beeb1fe02d00",
-    "lwjgl-3.3.1.jar": "cf83f90e32fb973ff5edfca4ef35f55ca51bb70a579b6a1f290744f552e8e484",
-    "lwjgl-3.3.1-natives-linux.jar": "22ef2afa31a1740a337ec9c6806c6b8d97e931a63e2c43270cbaf14fb3f6fc4e",
-    "lwjgl-3.3.1-natives-windows-x86.jar": "e90c1f9cf5701aeef2982ebf0905a2b991f4622b8a7f8250eaf0873b5a0a0223",
-    "lwjgl-3.3.1-natives-windows.jar": "093d13d62a6434bc656bf10a3b37e2530fd9af3b0bc20f8e9545be58659d1443",
-    "lwjgl-3.3.1-natives-macos.jar": "f48e610a981dca515b9bbe7345cc76e3450c13404b052d8ac357ef0af8e90abf",
-    "lwjgl-3.3.1-natives-macos-arm64.jar": "7197e89ab80a2a2183b4ee925ccb44e572f0cb757a92776adf8265269200a36a",
+    "lwjgl-opengl-3.3.3.jar": "5062da750e5f7ec89e27e8b67b7d40fa8c4b16890159e35f828116ce6c8eca1e",
+    "lwjgl-opengl-3.3.3-natives-linux.jar": "d823a92c6a2810b5112da304dcc6abcd4cb102706f74f7e934a223cea2051250",
+    "lwjgl-opengl-3.3.3-natives-windows-x86.jar": "9d99d203de4e31286cae753a1dfb981367c93734f1944644ba71be521b3af2cc",
+    "lwjgl-opengl-3.3.3-natives-windows.jar": "f45e5f60596b03b2e3d8b98a123c855ebd0b5154c8155dc2a56b890ccc907477",
+    "lwjgl-opengl-3.3.3-natives-macos.jar": "4c1073d0e5ae99966d0ef1d6a7795758476d247d930fdc5ec1865e38cb847cce",
+    "lwjgl-opengl-3.3.3-natives-macos-arm64.jar": "f1b3f1de83f973abae3a4bc32db5b229ae5d55cc80dbbc5f7c841812fe20b5fe",
+    "lwjgl-opencl-3.3.3.jar": "10ea1ac52e0cae7a7571e7bed81f57909f5ac50b449aa0f2494c49562e187c5e",
+    "lwjgl-3.3.3.jar": "dc9c7b2d48e8396d68895f8902ffa01e46253de44dfe927533ff09457ebfeec4",
+    "lwjgl-3.3.3-natives-linux.jar": "e663738c519a06f6d659882fa8e4e09af7f10e921929ee5cc54a7587f62ed4c9",
+    "lwjgl-3.3.3-natives-windows-x86.jar": "22a22338262554eb5e133c8441deeedac84da082eb3bac84d032da4faf369749",
+    "lwjgl-3.3.3-natives-windows.jar": "5ee63a19187efe5bb8747fd24f7b13257db348df5ad641113a3695e43f213959",
+    "lwjgl-3.3.3-natives-macos.jar": "0294ee4e2dd7ef6befaffafc0bb99a2a89b76070b5cd8302f3d75624b6786d03",
+    "lwjgl-3.3.3-natives-macos-arm64.jar": "50ac9ca09e59f051dcacf4dc0b2145e9e916e6ab14633b75694231bfe59314a8",
     "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
     "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
     "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
