@@ -98,22 +98,22 @@
   ],
   "artifacts": [
     {
-      "hash": "5a81523022c6b243a317dc638b4cac456f0084686388b25468783e1cf5b2337c",
+      "hash": "224835fee3f11bcdc113658390829126ea596bbc2ac840828eedeccce8ed09db",
       "name": "game.jar",
       "path": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/master/client/live/repo/game.jar",
-      "size": 68386262
-    },
-    {
-      "hash": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
-      "name": "javafx-web-11.0.2-win.jar",
-      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-web/11.0.2/javafx-web-11.0.2-win.jar",
-      "size": 25451932
+      "size": 68388000
     },
     {
       "hash": "f46dffcf9ffc477a98cb64954fd906852df2faf3d3b428c06d1396d5c8949707",
       "name": "javafx-fxml-11.0.2-win.jar",
       "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-win.jar",
       "size": 127395
+    },
+    {
+      "hash": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
+      "name": "javafx-web-11.0.2-win.jar",
+      "path": "https://repo.maven.apache.org/maven2/org/openjfx/javafx-web/11.0.2/javafx-web-11.0.2-win.jar",
+      "size": 25451932
     },
     {
       "hash": "2abbc62d9b2830d46997531ec404bb2fae1176604ff2b19eb716a3b33eadc527",
@@ -624,9 +624,9 @@
   ],
   "updates": [],
   "dependencyHashes": {
-    "game.jar": "5a81523022c6b243a317dc638b4cac456f0084686388b25468783e1cf5b2337c",
-    "javafx-web-11.0.2-win.jar": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
+    "game.jar": "224835fee3f11bcdc113658390829126ea596bbc2ac840828eedeccce8ed09db",
     "javafx-fxml-11.0.2-win.jar": "f46dffcf9ffc477a98cb64954fd906852df2faf3d3b428c06d1396d5c8949707",
+    "javafx-web-11.0.2-win.jar": "19ff409c8ba90c3541e561c8c18257c22df655dab4822083c203a127b4582196",
     "javafx-controls-11.0.2-win.jar": "2abbc62d9b2830d46997531ec404bb2fae1176604ff2b19eb716a3b33eadc527",
     "javafx-controls-11.0.2.jar": "60106c2cf52a7f31eca1b8d08a952cf4b93b5b1d85492a755e97a0808a69ff9a",
     "javafx-swing-11.0.2-win.jar": "b2896377370132993cbc61d18fc65c4634ca771f3d1dd2c69db8bf81ce798770",
