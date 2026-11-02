@@ -5,6 +5,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "-Xincgc",
     "-XX:+UseConcMarkSweepGC",
     "-XX:+UseParNewGC",
@@ -17,6 +18,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
   ],
@@ -27,6 +29,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
   ],
@@ -36,6 +39,7 @@
     "-Xmx512m",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED"
   ],
@@ -45,6 +49,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
@@ -56,6 +61,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED"
   ],
@@ -64,6 +70,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "-Xincgc",
     "-XX:+UseConcMarkSweepGC",
     "-XX:+UseParNewGC",
@@ -76,6 +83,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED"
   ],
@@ -84,6 +92,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/com.apple.eawt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED"
@@ -93,6 +102,7 @@
     "-Xmx1g",
     "-Xss2m",
     "-XX:CompileThreshold\u003d1500",
+    "-XX:-OmitStackTraceInFastThrow",
     "--add-opens\u003djava.desktop/sun.awt\u003dALL-UNNAMED",
     "--add-opens\u003djava.desktop/java.awt\u003dALL-UNNAMED"
   ],
@@ -164,10 +174,10 @@
       "size": 114738
     },
     {
-      "hash": "0862ef3f429cf0e2853a3e9653e85651ff83a419a7ae915f31d6d4d91695d011",
+      "hash": "6c9733912d3e4d43de6ea9b47c3388ef3db94f62bc805a6f8a6d3740cbeaaa02",
       "name": "game.jar",
       "path": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/main/client/live/repo/game.jar",
-      "size": 47313786
+      "size": 47401178
     },
     {
       "hash": "187ce9ddabfa7cd83447ccf9c166018aa7d2519c334942d91e33b3aaf24b53c7",
@@ -631,7 +641,7 @@
     "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
     "flatlaf-3.2.5-rl4.jar": "c518fa0427c7f6029b115541c0dbcf633fc89a65467f8472c52bb71fe18b559c",
     "flatlaf-extras-3.2.5-rl4.jar": "8ed1c0ecc09bdaf7224e3750bf3fa29266295f902d3ceeaa1380b26c888b761f",
-    "game.jar": "0862ef3f429cf0e2853a3e9653e85651ff83a419a7ae915f31d6d4d91695d011",
+    "game.jar": "6c9733912d3e4d43de6ea9b47c3388ef3db94f62bc805a6f8a6d3740cbeaaa02",
     "gluegen-rt-2.4.0-rc-20220318-natives-linux-amd64.jar": "187ce9ddabfa7cd83447ccf9c166018aa7d2519c334942d91e33b3aaf24b53c7",
     "gluegen-rt-2.4.0-rc-20220318-natives-macosx-universal.jar": "c4d42a4c2335b1a5eb6d56a871af9360184b2dd2a028e9b7b7bd8644f6975583",
     "gluegen-rt-2.4.0-rc-20220318-natives-windows-amd64.jar": "1ab1e977c70bf8edbc519438619e9c317d285ef286eb95cd241546492ba0dc64",
