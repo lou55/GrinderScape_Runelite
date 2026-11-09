@@ -174,10 +174,10 @@
       "size": 114738
     },
     {
-      "hash": "7b5d97c47e2ac3feb4933838594e095fe2d78056daa541ee87683c9265f8ee92",
+      "hash": "cd1625a34356a848d240648bb876cfcb601d80d8ebd62b57efa7a7582b25f879",
       "name": "game.jar",
       "path": "https://raw.githubusercontent.com/lou55/GrinderScape_Runelite/main/client/live/repo/game.jar",
-      "size": 47957864
+      "size": 47959601
     },
     {
       "hash": "187ce9ddabfa7cd83447ccf9c166018aa7d2519c334942d91e33b3aaf24b53c7",
@@ -641,7 +641,7 @@
     "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
     "flatlaf-3.2.5-rl4.jar": "c518fa0427c7f6029b115541c0dbcf633fc89a65467f8472c52bb71fe18b559c",
     "flatlaf-extras-3.2.5-rl4.jar": "8ed1c0ecc09bdaf7224e3750bf3fa29266295f902d3ceeaa1380b26c888b761f",
-    "game.jar": "7b5d97c47e2ac3feb4933838594e095fe2d78056daa541ee87683c9265f8ee92",
+    "game.jar": "cd1625a34356a848d240648bb876cfcb601d80d8ebd62b57efa7a7582b25f879",
     "gluegen-rt-2.4.0-rc-20220318-natives-linux-amd64.jar": "187ce9ddabfa7cd83447ccf9c166018aa7d2519c334942d91e33b3aaf24b53c7",
     "gluegen-rt-2.4.0-rc-20220318-natives-macosx-universal.jar": "c4d42a4c2335b1a5eb6d56a871af9360184b2dd2a028e9b7b7bd8644f6975583",
     "gluegen-rt-2.4.0-rc-20220318-natives-windows-amd64.jar": "1ab1e977c70bf8edbc519438619e9c317d285ef286eb95cd241546492ba0dc64",
